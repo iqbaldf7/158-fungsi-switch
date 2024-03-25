@@ -65,3 +65,6 @@ int main()
             input();
             cout << "Hasil pengurangan =" << pengurangan(bilSatu, bilDua) << endl;
             break;
+         case 5:
+            cout << "Terima kasih telah menggunakan kalkulator." << endl;
+            break;
