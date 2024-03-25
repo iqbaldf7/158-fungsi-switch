@@ -68,3 +68,13 @@ int main()
          case 5:
             cout << "Terima kasih telah menggunakan kalkulator." << endl;
             break;
+
+              default:
+            cout << "pilihan tidak ada " << endl;
+            break;
+        }
+
+    } while (pilihan != 5);
+
+    return 0;
+}
